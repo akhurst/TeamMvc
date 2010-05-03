@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Team">
+  <DataContextMoniker Name="/TeamDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ab906918-9d1d-4c59-af28-c5a47e4a9851" absoluteBounds="3.75, 2, 2, 1.4248478190104168">
+      <DataClassMoniker Name="/TeamDataContext/PlayerDM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac6a0712-ed54-4e0c-bad5-6d7f22a61fad" absoluteBounds="3.765, 2.46, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="58d71d3a-174d-4de5-a6c0-4b2b5a359896" absoluteBounds="2.75, 5, 2, 1.26050048828125">
+      <DataClassMoniker Name="/TeamDataContext/TeamDM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71e81c2a-f457-4ce9-bc38-f8de0fed7e58" absoluteBounds="2.765, 5.46, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.25 : 5); (4.25 : 3.42484781901042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TeamDataContext/TeamDM/Team_Player" />
+      <nodes>
+        <classShapeMoniker Id="58d71d3a-174d-4de5-a6c0-4b2b5a359896" />
+        <classShapeMoniker Id="ab906918-9d1d-4c59-af28-c5a47e4a9851" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="af44e9c1-25e0-4b69-b12a-2a5d5a0d837b" absoluteBounds="1.25, 1.75, 2, 1.4248478190104168">
+      <DataClassMoniker Name="/TeamDataContext/GameDM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="154862b9-d0b9-4c67-8830-63ab0845c091" absoluteBounds="1.2650000000000001, 2.21, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 5); (3 : 3.17484781901042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TeamDataContext/TeamDM/Team_Game" />
+      <nodes>
+        <classShapeMoniker Id="58d71d3a-174d-4de5-a6c0-4b2b5a359896" />
+        <classShapeMoniker Id="af44e9c1-25e0-4b69-b12a-2a5d5a0d837b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.1875 : 5); (3.1875 : 3.17484781901042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TeamDataContext/TeamDM/Team_Game1" />
+      <nodes>
+        <classShapeMoniker Id="58d71d3a-174d-4de5-a6c0-4b2b5a359896" />
+        <classShapeMoniker Id="af44e9c1-25e0-4b69-b12a-2a5d5a0d837b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

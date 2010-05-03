@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamMvc", "TeamMvc\TeamMvc.csproj", "{6D0BF9A2-F28E-467E-90BD-A637E0C5E9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamMvc.Tests", "TeamMvc.Tests\TeamMvc.Tests.csproj", "{4AD34A90-E417-463E-A4BA-21665A25EE07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0BF9A2-F28E-467E-90BD-A637E0C5E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0BF9A2-F28E-467E-90BD-A637E0C5E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0BF9A2-F28E-467E-90BD-A637E0C5E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0BF9A2-F28E-467E-90BD-A637E0C5E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD34A90-E417-463E-A4BA-21665A25EE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD34A90-E417-463E-A4BA-21665A25EE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD34A90-E417-463E-A4BA-21665A25EE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD34A90-E417-463E-A4BA-21665A25EE07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
